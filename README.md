@@ -12,8 +12,10 @@
 
 Устанавливаем docker
 ![Снимок3](https://github.com/user-attachments/assets/ed679c89-c1b6-4a1e-9ca3-95d11d52e980)
+![Снимок4](https://github.com/user-attachments/assets/e9a8333a-2c92-49e2-9f2f-f7ff3304623c)
 
-
+Запускаем и разрешаем автозапуск
+![Снимок5](https://github.com/user-attachments/assets/913211e4-f5d2-45c8-a49c-011821518a16)
 
 
 -d продолжает команду в фоновом режиме
