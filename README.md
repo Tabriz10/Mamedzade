@@ -10,7 +10,7 @@
 Скачиваем файл репозатория
 ![Снимок2](https://github.com/user-attachments/assets/db45030e-a36a-4aef-88c1-940081aac031)
 
-Устанавливаем docker
+Устанавливаем Docker Compose
 ![Снимок3](https://github.com/user-attachments/assets/ed679c89-c1b6-4a1e-9ca3-95d11d52e980)
 ![Снимок4](https://github.com/user-attachments/assets/e9a8333a-2c92-49e2-9f2f-f7ff3304623c)
 
