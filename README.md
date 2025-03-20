@@ -4,20 +4,20 @@
 ![Снимок](https://github.com/user-attachments/assets/68d8ded3-7bb5-40ad-b6b2-2623858b2c06)
 
 
-2. Устанавливаем curl для того, чтобы копировать и вставлять текст в командную строку. В VM нажимаем Устройства - Общий буфер обмена - Двунаправленный. Устройства - Функция Drag and Drop - Двунаправленный.
+2. Устанавливаем curl для того, чтобы копировать и вставлять текст в командную строку. В VM нажимаем Устройства - Общий буфер обмена - Двунаправленный. Устройства - Функция Drag and Drop - Двунаправленный. (sudo yum install curl)
 ![Снимок 2](https://github.com/user-attachments/assets/f17c27b9-b3f5-4996-b85d-ae2436321811)
 
-3. Скачиваем файл репозатория
+3. Скачиваем файл репозатория (sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo)
 ![Снимок2](https://github.com/user-attachments/assets/db45030e-a36a-4aef-88c1-940081aac031)
 
-4. Устанавливаем Docker Compose
+4. Устанавливаем Docker Compose (sudo yum install docker-ce docker-ce-cli containerd.io)
 ![Снимок3](https://github.com/user-attachments/assets/ed679c89-c1b6-4a1e-9ca3-95d11d52e980)
 ![Снимок4](https://github.com/user-attachments/assets/e9a8333a-2c92-49e2-9f2f-f7ff3304623c)
 
-5. Запускаем и разрешаем автозапуск
+5. Запускаем и разрешаем автозапуск (sudo systemctl enable docker --now)
 ![Снимок5](https://github.com/user-attachments/assets/913211e4-f5d2-45c8-a49c-011821518a16)
 
-6. Устанавливаем переменную COMVER. Grep находит последнюю версию
+6. Устанавливаем переменную COMVER. Grep находит последнюю версию (
 ![Снимок 7](https://github.com/user-attachments/assets/990a8b72-9d95-4e16-9d6c-e7462c1c2b24)
 
 7. Предоставление прав на выполнение файла docker-compose
