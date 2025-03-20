@@ -38,12 +38,10 @@
 12. Создание папки с проектом
 ![git clone 256](https://github.com/user-attachments/assets/34de07e6-5f30-4905-8df3-b8fb6bcd951d)
 
-
-
-14. Переходим в папку cd grafana_stack_for_docker
+13. Переходим в папку cd grafana_stack_for_docker
 ![Снимок2](https://github.com/user-attachments/assets/9e0e968b-590e-45e1-9962-94f1eba3a0df)
 
-15. Создаем папки sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+14. Создаем все необходиые директории sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 ![Снимок3](https://github.com/user-attachments/assets/c8a14b4c-6978-4a57-b3cf-26f37666f5ca)
 
 16. Даем права пользователю sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
