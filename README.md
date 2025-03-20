@@ -32,26 +32,30 @@
 10. Проверка версии Docker Compose
 ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/511e22be-e301-4653-be12-83809b6bd2bf)
 
-11. Установка git командой git clone https://github.com/skl256/grafana_stack_for_docker.git. Выбираем "y" и нажимаем Enter
-    ![создание папки](https://github.com/user-attachments/assets/a9044a4c-3d2f-4bce-886e-ae5ce7e24542)
+11. Установка git
+![install git](https://github.com/user-attachments/assets/5f2bb5b7-d77f-40c8-825f-347996132660)
+
+12. Создание папки с проектом
+![git clone 256](https://github.com/user-attachments/assets/34de07e6-5f30-4905-8df3-b8fb6bcd951d)
 
 
-13. Переходим в папку cd grafana_stack_for_docker
+
+14. Переходим в папку cd grafana_stack_for_docker
 ![Снимок2](https://github.com/user-attachments/assets/9e0e968b-590e-45e1-9962-94f1eba3a0df)
 
-14. Создаем папки sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+15. Создаем папки sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 ![Снимок3](https://github.com/user-attachments/assets/c8a14b4c-6978-4a57-b3cf-26f37666f5ca)
 
-15. Даем права пользователю sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+16. Даем права пользователю sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
 ![Снимок4](https://github.com/user-attachments/assets/16472bfc-5904-47c0-960b-9ae3722fbd9f)
 
-16. Файл grafana.ini уже существует, команда touch /mnt/common_volume/grafana/grafana-config/grafana.ini обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+17. Файл grafana.ini уже существует, команда touch /mnt/common_volume/grafana/grafana-config/grafana.ini обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
 ![Снимок5](https://github.com/user-attachments/assets/e78e70d3-0337-4dc1-832e-82a28971a703)
 
-17. Команда cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
+18. Команда cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
 ![Снимок6](https://github.com/user-attachments/assets/1df5ed62-a158-47fb-961b-1061ce6601b5)
 
-18. Переименовываем файл grafana.yaml в docker-compose.yaml командой mv grafana.yaml docker-compose.yaml
+19. Переименовываем файл grafana.yaml в docker-compose.yaml командой mv grafana.yaml docker-compose.yaml
 
 Проверяем где мы находимся командой ls
 ![Снимок14](https://github.com/user-attachments/assets/0dac4392-d45f-4bc8-b509-396e4f481e86)
