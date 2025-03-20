@@ -17,16 +17,16 @@
 5. Запускаем и разрешаем автозапуск (sudo systemctl enable docker --now)
 ![Снимок5](https://github.com/user-attachments/assets/913211e4-f5d2-45c8-a49c-011821518a16)
 
-6. Устанавливаем переменную COMVER. Grep находит последнюю версию (
+6. Устанавливаем переменную COMVER. Grep находит последнюю версию (COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4))
 ![Снимок 7](https://github.com/user-attachments/assets/990a8b72-9d95-4e16-9d6c-e7462c1c2b24)
 
-7. Предоставление прав на выполнение файла docker-compose
+7. Предоставление прав на выполнение файла docker-compose (sudo chmod +x /usr/bin/docker-compose)
 ![Предоставление прав на выполнение файла docker-compose](https://github.com/user-attachments/assets/71b15fb8-8e29-4086-9a1e-b90098ddc1b9)
 
-8. Проверка версии Docker Compose
+8. Проверка версии Docker Compose (docker-compose --version)
    ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/021afd35-a7c5-4fed-85b1-90300157c847)
    
-9. Выкачиваем последнюю версию Docker Compose
+9. Выкачиваем последнюю версию Docker Compose (
 ![Снимок8 (2)](https://github.com/user-attachments/assets/35f4b2a0-d432-4a4e-be79-75002e50ffdb)
 
 10. Проверка версии Docker Compose
