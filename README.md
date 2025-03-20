@@ -70,8 +70,10 @@
 23. Останавливаем процесс sudo docker compose stop. При написанни через дефис - ошибка. Решение: пишем через пробел.
 ![0](https://github.com/user-attachments/assets/3e7530ac-b74e-4cf3-89f1-9ac5f7ed4fbe)
 
-Останавливаем процесс с удалением  файлов sudo socker compose dowm
-![1](https://github.com/user-attachments/assets/b11ba872-c023-4470-bed8-193c81987ce5)
+24. Останавливаем процесс с удалением  файлов sudo socker compose dowm
+![down](https://github.com/user-attachments/assets/1668c742-f174-4b53-af94-effed47cd9e2)
+
+
 
 
 
