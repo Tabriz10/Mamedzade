@@ -65,9 +65,9 @@
 21. cd grafana_stack_for_docker/ для перехода в папку (забыл скрин)
 
 22. sudo docker compose up -d создает и запускает контейнеры в фоновом режиме
-![Снимок12](https://github.com/user-attachments/assets/cd543f0c-a22a-40c3-8ce1-d7bb8668f1c2)
+![up -d](https://github.com/user-attachments/assets/2f1acfa5-b5a1-4623-877b-3088b72e6281)
 
-Останавливаем процесс sudo docker compose stop. При написанни через дефис - ошибка. Решение: пишем черещ пробел.
+23. Останавливаем процесс sudo docker compose stop. При написанни через дефис - ошибка. Решение: пишем через пробел.
 ![0](https://github.com/user-attachments/assets/3e7530ac-b74e-4cf3-89f1-9ac5f7ed4fbe)
 
 Останавливаем процесс с удалением  файлов sudo socker compose dowm
