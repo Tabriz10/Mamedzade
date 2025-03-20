@@ -58,6 +58,8 @@
 ![Снимок6](https://github.com/user-attachments/assets/1df5ed62-a158-47fb-961b-1061ce6601b5)
 
 20. Переименовываем файл grafana.yaml в docker-compose.yaml командой mv grafana.yaml docker-compose.yaml
+![переименовали](https://github.com/user-attachments/assets/708d0db7-de2a-4c89-9ce5-542ee6c9e259)
+
 
 Проверяем где мы находимся командой ls
 ![Снимок14](https://github.com/user-attachments/assets/0dac4392-d45f-4bc8-b509-396e4f481e86)
