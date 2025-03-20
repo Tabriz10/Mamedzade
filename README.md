@@ -67,10 +67,10 @@
 22. sudo docker compose up -d создает и запускает контейнеры в фоновом режиме
 ![up -d](https://github.com/user-attachments/assets/2f1acfa5-b5a1-4623-877b-3088b72e6281)
 
-23. Останавливаем процесс sudo docker compose stop. При написанни через дефис - ошибка. Решение: пишем через пробел.
+23. Останавливаем процесс sudo docker-compose stop. При написанни через дефис - ошибка. Решение: пишем через пробел.
 ![0](https://github.com/user-attachments/assets/3e7530ac-b74e-4cf3-89f1-9ac5f7ed4fbe)
 
-24. Останавливаем процесс с удалением  файлов sudo socker compose dowm
+24. Останавливаем процесс с удалением  файлов sudo docker-compose dowm. Перед этим соответсвенно необходимо снова запустить Docker Compose.
 ![down](https://github.com/user-attachments/assets/1668c742-f174-4b53-af94-effed47cd9e2)
 
 25. Клонирование удаленного Git-репозитория с GitHub в папку
