@@ -73,6 +73,11 @@
 24. Останавливаем процесс с удалением  файлов sudo socker compose dowm
 ![down](https://github.com/user-attachments/assets/1668c742-f174-4b53-af94-effed47cd9e2)
 
+25. Клонирование удаленного Git-репозитория с GitHub в папку
+![git clone](https://github.com/user-attachments/assets/690afd95-bb97-4c9e-9767-04d5cf5c8f4c)
+
+
+
 
 
 
