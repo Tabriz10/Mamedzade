@@ -76,6 +76,8 @@
 25. Клонирование удаленного Git-репозитория с GitHub в папку
 ![git clone](https://github.com/user-attachments/assets/690afd95-bb97-4c9e-9767-04d5cf5c8f4c)
 
+26. Создал в Git
+
 
 
 
