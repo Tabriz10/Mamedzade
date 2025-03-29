@@ -86,8 +86,9 @@
 29. Переходим во вкладку Dashboards, далее New и выбираем New dashboard
 ![1](https://github.com/user-attachments/assets/9c1e874c-d3c9-4e7c-80f6-69880b3a27d8)
 
-30. На открывшейся странице нажимаем на +Add visualization
+30. На открывшейся странице нажимаем на +Add visualization, затем справа снизу Configure a new data source
 ![2](https://github.com/user-attachments/assets/03a10b71-1379-4972-9f4a-3780affc487c)
+![3](https://github.com/user-attachments/assets/3f6eab5f-11eb-4929-9055-2be899e2ba14)
 
 
 
