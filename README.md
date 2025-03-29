@@ -90,6 +90,30 @@
 ![2](https://github.com/user-attachments/assets/03a10b71-1379-4972-9f4a-3780affc487c)
 ![3](https://github.com/user-attachments/assets/3f6eab5f-11eb-4929-9055-2be899e2ba14)
 
+31. Из списка выбираем Prometheus
+![4](https://github.com/user-attachments/assets/8447e1a4-2db8-4a79-89d9-72e08d8031e6)
+
+32. Далее заполняем данные.
+Connection: http://prometheus:9090.
+Authentication methods: Basic authentication
+Нажимаем Save & test
+![5](https://github.com/user-attachments/assets/20fbfbd2-c048-4a68-ba12-c127ebe8607e)
+
+33. Далее снова заходим во вкладку Dashboards, New и выбираем Import
+![6](https://github.com/user-attachments/assets/1db6a44e-d2a1-4099-8084-961cac1ada01)
+
+34. В строку, где написано Grafana.com dashboard URL or ID вводим 1860 и нажимаем Load
+![7](https://github.com/user-attachments/assets/c0708df6-fbbc-443d-a64a-2b7f6ef738a3)
+![8](https://github.com/user-attachments/assets/4dc9d768-9230-42a0-a5d7-bde7c59df877)
+![9](https://github.com/user-attachments/assets/269d7adb-6414-413c-9459-9f95ebdc9851)
+
+
+
+
+
+
+
+
 
 
 
