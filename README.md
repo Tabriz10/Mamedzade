@@ -76,7 +76,22 @@
 25. Клонирование удаленного Git-репозитория с GitHub в папку
 ![git clone](https://github.com/user-attachments/assets/690afd95-bb97-4c9e-9767-04d5cf5c8f4c)
 
-26. Создал в Git
+26. Запускаем docker compose снова (sudo docker compose up -d)
+![Снимок1](https://github.com/user-attachments/assets/aeb98180-6a39-4502-a80d-eec476d9da18)
+
+28. Заходим в браузер в VM и переходим по адресу localhost:3000. Вводим логин: admin. Пароль:admin
+![Снимок2](https://github.com/user-attachments/assets/62a103a1-b9a7-4614-bb6a-a10a8d58f27e)
+![Снимок3](https://github.com/user-attachments/assets/d2eb097b-36c8-4461-8dec-6d3792e47680)
+
+29. Переходим во вкладку Dashboards, далее New и выбираем New dashboard
+![1](https://github.com/user-attachments/assets/9c1e874c-d3c9-4e7c-80f6-69880b3a27d8)
+
+30. На открывшейся странице нажимаем на +Add visualization
+![2](https://github.com/user-attachments/assets/03a10b71-1379-4972-9f4a-3780affc487c)
+
+
+
+
 
 
 
