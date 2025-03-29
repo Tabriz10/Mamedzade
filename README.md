@@ -107,6 +107,12 @@ Authentication methods: Basic authentication
 ![8](https://github.com/user-attachments/assets/4dc9d768-9230-42a0-a5d7-bde7c59df877)
 ![9](https://github.com/user-attachments/assets/269d7adb-6414-413c-9459-9f95ebdc9851)
 
+35. Вводим команду echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus которая, отправляет бинарные данные
+![10](https://github.com/user-attachments/assets/18e24328-f89f-4311-a5e3-ad4a621c155c)
+
+36. Снова открываем браузер в VM и переходим по ссылке http://localhost:8428/. На открывшейся странице выбираем vmui - Web UI
+
+
 
 
 
