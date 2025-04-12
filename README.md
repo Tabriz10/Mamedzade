@@ -96,7 +96,7 @@
 32. Далее заполняем данные.
 Connection: http://prometheus:9090.
 Authentication methods: Basic authentication
-Нажимаем Save & test
+Прокручиваем вниз и нажимаем Save & test
 ![5](https://github.com/user-attachments/assets/20fbfbd2-c048-4a68-ba12-c127ebe8607e)
 
 33. Далее снова заходим во вкладку Dashboards, New и выбираем Import
@@ -111,6 +111,29 @@ Authentication methods: Basic authentication
 ![10](https://github.com/user-attachments/assets/18e24328-f89f-4311-a5e3-ad4a621c155c)
 
 36. Снова открываем браузер в VM и переходим по ссылке http://localhost:8428/. На открывшейся странице выбираем vmui - Web UI
+![1](https://github.com/user-attachments/assets/a7aff313-333c-4488-9650-fc8b4896da29)
+![2](https://github.com/user-attachments/assets/1560106a-25bb-4b8f-b5c7-0c735878da65)
+![4](https://github.com/user-attachments/assets/40a7c537-3ef0-4609-b830-0ec05b0b6980)
+
+
+38. В поле Quert пишем light_metric1 и нажимаем EXECUTE QUERY
+![3](https://github.com/user-attachments/assets/9255ec59-2e66-46da-ba00-13f48dc87cd4)
+
+
+39. Как уже делали выше, переходим по адресу localhost:3000. Вводим логин: admin. Пароль:admin. Переходим во вкладку Dashboards, далее New и выбираем New dashboard. На открывшейся странице нажимаем на +Add visualization, затем справа снизу Configure a new data source.
+![5](https://github.com/user-attachments/assets/9fca23f6-cead-4489-95a7-416e8c5ea969)
+
+40. Выбираем Prometheus и заполняем данные
+Name: viktoria
+Connection: http://victoriametrics:8428
+Прокручиваем вниз и нажимаем Save & Test
+![6](https://github.com/user-attachments/assets/fbc9177a-84bc-4e21-8d7e-45f304a70ab9)
+![7](https://github.com/user-attachments/assets/4974eebd-5d73-4e13-9708-c0d7e16cc3ce)
+
+41. Снова переходим на localhost:3000. Dashboards - New Dashboard - Ad Vizualization - Viktoria. В поле Metrics browser вписываем light_metric1 и нажимаем Run querise
+
+
+
 
 
 
