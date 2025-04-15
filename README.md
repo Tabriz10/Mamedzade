@@ -48,6 +48,7 @@
 ![Снимок 7](https://github.com/user-attachments/assets/990a8b72-9d95-4e16-9d6c-e7462c1c2b24)
 
 7. Выкачиваем последнюю версию Docker Compose (sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose)
+
 ![Снимок8 (2)](https://github.com/user-attachments/assets/35f4b2a0-d432-4a4e-be79-75002e50ffdb)
 
 9. Предоставление прав на выполнение файла docker-compose (sudo chmod +x /usr/bin/docker-compose)
