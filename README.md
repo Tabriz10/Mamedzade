@@ -1,6 +1,8 @@
 Для начала устанавливаем Linux на VirtualBox. Даем имя, выбираем путь, куда установить, выбираем свой iso файл и ставим галочку "Пропустить автоматическую установку". Назначаем количество оперативной памяти, процессоров и память для жесткого диска.
 
 ![1](https://github.com/user-attachments/assets/b288bd3f-ac5a-4b7b-b3cb-80fcb87877a5)
+![7](https://github.com/user-attachments/assets/70a6fdd3-c23b-43bc-bf64-c0e28dd4b782)
+![8](https://github.com/user-attachments/assets/8555c572-4d85-4b39-b259-c0c2cc68319d)
 
 Обязательно выбираем английский язык
 
