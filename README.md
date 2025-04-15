@@ -60,6 +60,7 @@
 
 
 10. Установка git (sudo yum install git)
+
 ![install git](https://github.com/user-attachments/assets/5f2bb5b7-d77f-40c8-825f-347996132660)
 
 11. Создание папки с проектом (git clone https://github.com/skl256/grafana_stack_for_docker.git)
