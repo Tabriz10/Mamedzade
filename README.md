@@ -20,6 +20,8 @@
 
 ![6](https://github.com/user-attachments/assets/5ed99ca9-1e2c-4589-97a0-f4126aa5ba22)
 
+В VM нажимаем Устройства - Общий буфер обмена - Двунаправленный. Устройства - Функция Drag and Drop - Двунаправленный.
+
 
 
 
@@ -29,7 +31,7 @@
 ![Снимок](https://github.com/user-attachments/assets/68d8ded3-7bb5-40ad-b6b2-2623858b2c06)
 
 
-2. Устанавливаем curl для того, чтобы копировать и вставлять текст в командную строку. В VM нажимаем Устройства - Общий буфер обмена - Двунаправленный. Устройства - Функция Drag and Drop - Двунаправленный. (sudo yum install curl)
+2. Устанавливаем curl для того, чтобы отправлять HTTP/HTTPS запросы (sudo yum install curl).
 ![Снимок 2](https://github.com/user-attachments/assets/f17c27b9-b3f5-4996-b85d-ae2436321811)
 
 3. Скачиваем файл репозатория (sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo)
