@@ -59,6 +59,7 @@
 
 
 10. Проверка версии Docker Compose (docker-compose --version)
+
 ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/511e22be-e301-4653-be12-83809b6bd2bf)
 
 13. Установка git (sudo yum install git)
