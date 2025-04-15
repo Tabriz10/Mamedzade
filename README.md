@@ -67,9 +67,10 @@
 ![git clone 256](https://github.com/user-attachments/assets/34de07e6-5f30-4905-8df3-b8fb6bcd951d)
 
 12. Переходим в папку cd grafana_stack_for_docker
+
 ![Снимок2](https://github.com/user-attachments/assets/9e0e968b-590e-45e1-9962-94f1eba3a0df)
 
-16. Создаем все необходиые директории sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+13. Создаем все необходиые директории sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 ![Снимок3](https://github.com/user-attachments/assets/c8a14b4c-6978-4a57-b3cf-26f37666f5ca)
 
 17. Создаем директории grafana-config, grafana-data, и prometheus-data внутри /mnt/common_volume/grafana/
