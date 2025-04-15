@@ -15,6 +15,7 @@
 ![5](https://github.com/user-attachments/assets/8aac25e5-657a-4b63-8c4e-be45070715a1)
 
 Далее заходим в Installation Destination, два раза нажимаем на ATA VBOX HARDDISK и нажимаем Done. Затем нажимаем Brgin Installation - ждем пока не закончится установка Linux.
+
 ![6](https://github.com/user-attachments/assets/5ed99ca9-1e2c-4589-97a0-f4126aa5ba22)
 
 
