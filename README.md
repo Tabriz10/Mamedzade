@@ -55,14 +55,15 @@
 ![Предоставление прав на выполнение файла docker-compose](https://github.com/user-attachments/assets/71b15fb8-8e29-4086-9a1e-b90098ddc1b9)
 
 9. Проверка версии Docker Compose (docker-compose --version)
-   ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/021afd35-a7c5-4fed-85b1-90300157c847)
+
+ ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/021afd35-a7c5-4fed-85b1-90300157c847)
 
 
 10. Проверка версии Docker Compose (docker-compose --version)
 
 ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/511e22be-e301-4653-be12-83809b6bd2bf)
 
-13. Установка git (sudo yum install git)
+11. Установка git (sudo yum install git)
 ![install git](https://github.com/user-attachments/assets/5f2bb5b7-d77f-40c8-825f-347996132660)
 
 14. Создание папки с проектом (git clone https://github.com/skl256/grafana_stack_for_docker.git)
