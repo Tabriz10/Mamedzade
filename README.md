@@ -78,9 +78,10 @@
 ![Создаем три директории grafana](https://github.com/user-attachments/assets/e333b1df-10a5-4613-a108-c6132ce354d2)
 
 15. Даем права пользователю - sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+
 ![Снимок4](https://github.com/user-attachments/assets/16472bfc-5904-47c0-960b-9ae3722fbd9f)
 
-16. Файл grafana.ini уже существует, команда touch /mnt/common_volume/grafana/grafana-config/grafana.ini обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+16. Создаем файл конфигурации - touch /mnt/common_volume/grafana/grafana-config/grafana.ini
 ![Снимок5](https://github.com/user-attachments/assets/e78e70d3-0337-4dc1-832e-82a28971a703)
 
 20. Команда cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
