@@ -51,16 +51,14 @@
 
 ![Снимок8 (2)](https://github.com/user-attachments/assets/35f4b2a0-d432-4a4e-be79-75002e50ffdb)
 
-9. Предоставление прав на выполнение файла docker-compose (sudo chmod +x /usr/bin/docker-compose)
+8. Предоставление прав на выполнение файла docker-compose (sudo chmod +x /usr/bin/docker-compose)
 ![Предоставление прав на выполнение файла docker-compose](https://github.com/user-attachments/assets/71b15fb8-8e29-4086-9a1e-b90098ddc1b9)
 
-10. Проверка версии Docker Compose (docker-compose --version)
+9. Проверка версии Docker Compose (docker-compose --version)
    ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/021afd35-a7c5-4fed-85b1-90300157c847)
-   
-11. Выкачиваем последнюю версию Docker Compose (sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose)
-![Снимок8 (2)](https://github.com/user-attachments/assets/35f4b2a0-d432-4a4e-be79-75002e50ffdb)
 
-12. Проверка версии Docker Compose (docker-compose --version)
+
+10. Проверка версии Docker Compose (docker-compose --version)
 ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/511e22be-e301-4653-be12-83809b6bd2bf)
 
 13. Установка git (sudo yum install git)
