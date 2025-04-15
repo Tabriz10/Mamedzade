@@ -63,7 +63,7 @@
 
 ![install git](https://github.com/user-attachments/assets/5f2bb5b7-d77f-40c8-825f-347996132660)
 
-11. Создание папки с проектом (git clone https://github.com/skl256/grafana_stack_for_docker.git)
+11. Клонируем репозиторий с github, где содержится Grafana (git clone https://github.com/skl256/grafana_stack_for_docker.git)
 ![git clone 256](https://github.com/user-attachments/assets/34de07e6-5f30-4905-8df3-b8fb6bcd951d)
 
 12. Переходим в папку cd grafana_stack_for_docker
