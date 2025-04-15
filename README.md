@@ -4,6 +4,11 @@
 Обязательно выбираем английский язык
 ![2](https://github.com/user-attachments/assets/a6d2ccb6-bb2d-47be-a24e-bcd28b5eea4e)
 
+Заходим в Root Password, придумываем пароль и ставим галочку на "Allow root SHH login with password"
+![3](https://github.com/user-attachments/assets/1d008b97-d90c-4549-8f79-95adcad0a7bc)
+![4](https://github.com/user-attachments/assets/92dbf475-0b21-4009-ab00-a7712df0aee8)
+
+
 
 1. Устанавливаем пакет wget командой sudo yum install wget в командной строке Oracle, далее вводим свой пароль
 ![Снимок](https://github.com/user-attachments/assets/68d8ded3-7bb5-40ad-b6b2-2623858b2c06)
