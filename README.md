@@ -1,5 +1,6 @@
 Для начала устанавливаем Linux на VirtualBox. Даем имя, выбираем путь, куда установить, выбираем свой iso файл и ставим галочку "Пропустить автоматическую установку".
 ![1](https://github.com/user-attachments/assets/b288bd3f-ac5a-4b7b-b3cb-80fcb87877a5)
+
 Обязательно выбираем английский язык
 ![2](https://github.com/user-attachments/assets/a6d2ccb6-bb2d-47be-a24e-bcd28b5eea4e)
 
