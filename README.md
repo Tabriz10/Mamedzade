@@ -1,4 +1,8 @@
-Устанавливаем Linux на VirtualBox. Обязательно выбираем английский язык
+Для начала устанавливаем Linux на VirtualBox. Даем имя, выбираем путь, куда установить, выбираем свой iso файл и ставим галочку "Пропустить автоматическую установку".
+![1](https://github.com/user-attachments/assets/b288bd3f-ac5a-4b7b-b3cb-80fcb87877a5)
+Обязательно выбираем английский язык
+![2](https://github.com/user-attachments/assets/a6d2ccb6-bb2d-47be-a24e-bcd28b5eea4e)
+
 
 1. Устанавливаем пакет wget командой sudo yum install wget в командной строке Oracle, далее вводим свой пароль
 ![Снимок](https://github.com/user-attachments/assets/68d8ded3-7bb5-40ad-b6b2-2623858b2c06)
