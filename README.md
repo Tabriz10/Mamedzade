@@ -11,7 +11,7 @@
 ![3](https://github.com/user-attachments/assets/1d008b97-d90c-4549-8f79-95adcad0a7bc)
 ![4](https://github.com/user-attachments/assets/92dbf475-0b21-4009-ab00-a7712df0aee8)
 
-Заходим в User Creation, придумываем имя и пароль, нажимаем Done
+Заходим в User Creation, придумываем имя и пароль, ставим галочку "Make this user administrator", нажимаем "Done"
 ![5](https://github.com/user-attachments/assets/8aac25e5-657a-4b63-8c4e-be45070715a1)
 
 
