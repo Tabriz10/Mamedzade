@@ -84,18 +84,17 @@
 16. Создаем файл конфигурации - touch /mnt/common_volume/grafana/grafana-config/grafana.ini
 ![Снимок5](https://github.com/user-attachments/assets/e78e70d3-0337-4dc1-832e-82a28971a703)
 
-20. Команда cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
+17. Команда cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
 ![Снимок6](https://github.com/user-attachments/assets/1df5ed62-a158-47fb-961b-1061ce6601b5)
 
-21. Переименовываем файл grafana.yaml в docker-compose.yaml командой mv grafana.yaml docker-compose.yaml
+18. Переименовываем файл grafana.yaml в docker-compose.yaml командой mv grafana.yaml docker-compose.yaml
 ![переименовали](https://github.com/user-attachments/assets/708d0db7-de2a-4c89-9ce5-542ee6c9e259)
 
-22. Проверяем где мы находимся командой ls
+19. Проверяем где мы находимся командой ls
 ![Снимок14](https://github.com/user-attachments/assets/0dac4392-d45f-4bc8-b509-396e4f481e86)
 
-23. cd grafana_stack_for_docker/ для перехода в папку (забыл скрин)
 
-24. sudo docker compose up -d создает и запускает контейнеры в фоновом режиме
+20. sudo docker compose up -d создает и запускает контейнеры в фоновом режиме
 ![up -d](https://github.com/user-attachments/assets/2f1acfa5-b5a1-4623-877b-3088b72e6281)
 
 25. Останавливаем процесс sudo docker-compose stop. При написанни через дефис - ошибка. Решение: пишем через пробел.
