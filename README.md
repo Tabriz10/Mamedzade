@@ -59,17 +59,13 @@
  ![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/021afd35-a7c5-4fed-85b1-90300157c847)
 
 
-10. Проверка версии Docker Compose (docker-compose --version)
-
-![Проверка установленной версии Docker Compose](https://github.com/user-attachments/assets/511e22be-e301-4653-be12-83809b6bd2bf)
-
-11. Установка git (sudo yum install git)
+10. Установка git (sudo yum install git)
 ![install git](https://github.com/user-attachments/assets/5f2bb5b7-d77f-40c8-825f-347996132660)
 
-14. Создание папки с проектом (git clone https://github.com/skl256/grafana_stack_for_docker.git)
+11. Создание папки с проектом (git clone https://github.com/skl256/grafana_stack_for_docker.git)
 ![git clone 256](https://github.com/user-attachments/assets/34de07e6-5f30-4905-8df3-b8fb6bcd951d)
 
-15. Переходим в папку cd grafana_stack_for_docker
+12. Переходим в папку cd grafana_stack_for_docker
 ![Снимок2](https://github.com/user-attachments/assets/9e0e968b-590e-45e1-9962-94f1eba3a0df)
 
 16. Создаем все необходиые директории sudo mkdir -p /mnt/common_volume/swarm/grafana/config
