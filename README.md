@@ -73,7 +73,8 @@
 13. Создаем все необходиые директории sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 ![Снимок3](https://github.com/user-attachments/assets/c8a14b4c-6978-4a57-b3cf-26f37666f5ca)
 
-17. Создаем директории grafana-config, grafana-data, и prometheus-data внутри /mnt/common_volume/grafana/
+17. Создаем директории для файлов Grafana - sudo mkdir -p /mnt/common_volume/swarm/grafana/config sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}
+
 ![Создаем три директории grafana](https://github.com/user-attachments/assets/e333b1df-10a5-4613-a108-c6132ce354d2)
 
 18. Даем права пользователю sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
