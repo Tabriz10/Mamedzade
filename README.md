@@ -103,7 +103,7 @@
 26. Останавливаем процесс с удалением  файлов sudo docker-compose dowm. Перед этим соответсвенно необходимо снова запустить Docker Compose.
 ![down](https://github.com/user-attachments/assets/1668c742-f174-4b53-af94-effed47cd9e2)
 
-27. Клонирование удаленного Git-репозитория с GitHub в папку
+27. Копируем свои конфигурационные файлы с github - sudo git clone 
 ![git clone](https://github.com/user-attachments/assets/690afd95-bb97-4c9e-9767-04d5cf5c8f4c)
 
 28. Запускаем docker compose снова (sudo docker compose up -d)
